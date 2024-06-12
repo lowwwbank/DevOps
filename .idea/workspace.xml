@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="974698fe-b82f-47af-8ca4-34d48e1a48df" name="Changes" comment="Binary updated" />
+    <list default="true" id="974698fe-b82f-47af-8ca4-34d48e1a48df" name="Changes" comment="Docker example added">
+      <change beforePath="$PROJECT_DIR$/Docker_test/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docker_test/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718219835454</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Docker example added">
+      <option name="closed" value="true" />
+      <created>1718232496349</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718232496349</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +162,7 @@
     <MESSAGE value="Fix" />
     <MESSAGE value="CPP Example" />
     <MESSAGE value="Binary updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary updated" />
+    <MESSAGE value="Docker example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker example added" />
   </component>
 </project>
