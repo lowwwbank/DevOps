@@ -1,12 +1,10 @@
 def hello_world():
     return "Hello, world!"
-def add(x,y):
-    return x + y
-def multiply(x,y):
+def multiply(x: float,y: float):
     return x * y
-def greeting(name):
+def greeting(name: str):
     print(f"Good morning, {name}!")
-def divide(x,y):
+def divide(x: float,y: float):
     return x / y
 
 def main():
