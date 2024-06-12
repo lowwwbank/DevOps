@@ -1,12 +1,14 @@
 import pytest
-from func import divide,greeting,multiply
+from func import divide, greeting, multiply
+
+
 @pytest.mark.parametrize(
     "x, y, result",
     [
         (5, 2, 2.5),
         (7, 2, 3.5),
         (100, 1, 100),
-        (1,1,1)
+        (1, 1, 1)
     ],
 )
 def test_divide_success(x, y, result):
@@ -47,6 +49,7 @@ def test_greeting_success(name, expected_output, capsys):
     captured = capsys.readouterr()
     assert captured.out == expected_output
 
+
 @pytest.mark.parametrize(
     "name, incorrect_output",
     [
@@ -60,8 +63,7 @@ def test_greeting_fail(name, incorrect_output, capsys):
     greeting(name)
     captured = capsys.readouterr()
     assert captured.out != incorrect_output
-def multiply(x: float, y: float) -> float:
-    return x * y
+
 
 @pytest.mark.parametrize(
     "x, y, result",
@@ -77,6 +79,7 @@ def multiply(x: float, y: float) -> float:
 )
 def test_multiply_success(x, y, result):
     assert multiply(x, y) == result
+
 
 @pytest.mark.parametrize(
     "x, y, result",
