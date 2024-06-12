@@ -1,0 +1,27 @@
+name: Binary
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Install g++
+      run: sudo apt-get install g++ -y
+
+    - name: Compile the binary
+      run: g++ test_app/main.cpp -o main.exe
+
+
+    - name: Upload the binary
+      uses: actions/upload-artifact@v2
+      with:
+        name: binary
+        path: ./test_app/main.exe
