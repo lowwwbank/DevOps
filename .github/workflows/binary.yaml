@@ -17,9 +17,8 @@ jobs:
       run: sudo apt-get install g++ -y
 
     - name: Compile the binary
-      run: |
-        cd ./test_app
-        make
+      run: g++ test_app/main.cpp -o main.exe
+
 
     - name: Upload the binary
       uses: actions/upload-artifact@v2
