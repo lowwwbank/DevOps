@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="974698fe-b82f-47af-8ca4-34d48e1a48df" name="Changes" comment="CPP Example">
+    <list default="true" id="974698fe-b82f-47af-8ca4-34d48e1a48df" name="Changes" comment="Make file updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_app/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/test_app/Makefile" afterDir="false" />
     </list>
@@ -21,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="do_python_example" />
@@ -134,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718219835454</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Make file updated">
+      <option name="closed" value="true" />
+      <created>1718220275956</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718220275956</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +163,7 @@
     <MESSAGE value="Make auto testing" />
     <MESSAGE value="Fix" />
     <MESSAGE value="CPP Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="CPP Example" />
+    <MESSAGE value="Make file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make file updated" />
   </component>
 </project>
