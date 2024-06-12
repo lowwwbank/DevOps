@@ -5,7 +5,7 @@ all: main clean
 clean:
     rm *.o
 main: main.o
-    $(CXX) $(CXXFLAGS) $^ -o $@.exe
+    $(CXX) $(CXXFLAGS) $^ -o main.exe
 
 main.o:
     $(CXX) $(CXXFLAGS) -c main.cpp
